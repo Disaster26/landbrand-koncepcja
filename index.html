@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Landbrand - strategie turystyki, szlaki i marki miejsc | Poznań</title>
+<meta name="description" content="Landbrand z Poznania od 2007 roku pomaga miastom, gminom i regionom rozwijać turystykę: strategie i programy rozwoju turystyki, szlaki, marki miejsc, inicjatywy kulinarne, szkolenia. Tel. 663 980 194.">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23fff'/%3E%3Crect x='10' y='8' width='44' height='48' fill='%23fff' stroke='%23A2A2A5' stroke-width='3'/%3E%3Crect x='11.5' y='24' width='41' height='16' fill='%23B2BB1E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/kajak.webp" media="(min-width:761px)">
+<link rel="preload" as="image" href="img/kajak-m.webp" media="(max-width:760px)">
+<link rel="stylesheet" href="style.css">
+<style>
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body>
+
+<header class="top" id="top">
+  <div class="top__in">
+    <a class="logo" href="#start" aria-label="Landbrand - strona główna"><img src="img/logo.svg" alt="landbrand - wyróżniamy miejsca" width="170" height="48"></a>
+    <nav class="nav" id="nav" aria-label="Menu główne">
+      <a href="#oferta">Oferta</a>
+      <a href="#realizacje">Realizacje</a>
+      <a href="#zespol">Zespół</a>
+      <a href="#szkolenia">Szkolenia</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="nav__tel" href="tel:+48663980194">663 980 194</a>
+    </nav>
+    <a class="top__tel" href="tel:+48663980194"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg><span>663 980 194</span></a>
+    <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="start">
+  <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="img/kajak.webp" aria-hidden="true">
+    <source src="img/kajak-m.mp4" type="video/mp4" media="(max-width:760px)">
+    <source src="img/kajak.mp4" type="video/mp4">
+  </video>
+  <picture class="hero__poster">
+    <source srcset="img/kajak-m.webp" media="(max-width:760px)">
+    <img src="img/kajak.webp" alt="" width="1600" height="900">
+  </picture>
+  <div class="hero__shade"></div>
+  <div class="hero__in wrap">
+    <div class="hero__text">
+      <p class="hero__info">Poznań, od 2007 roku<span class="hide-m"> dla samorządów, turystyki i gastronomii</span></p>
+      <h1>Wyróżniamy miejsca</h1>
+      <p class="hero__lead">Pomagamy miastom, gminom i regionom wypłynąć na szerokie wody: strategie turystyki, szlaki, marki miejsc i inicjatywy kulinarne, które da się wdrożyć.</p>
+    </div>
+    <div class="hero__cta">
+      <a class="btn btn--lime" href="#kontakt">Porozmawiajmy o Państwa miejscu</a>
+      <a class="btn btn--white" href="tel:+48663980194">Zadzwoń: 663 980 194</a>
+    </div>
+  </div>
+  <div class="hero__bar">
+    <div class="wrap hero__bar-in">
+      <a href="#turystyka">Rozwijamy turystykę</a>
+      <a href="#kulinaria">Kreujemy modę na dobry smak</a>
+      <a href="#marka">Budujemy marki miast i regionów</a>
+    </div>
+  </div>
+</section>
+
+<section class="intro" id="o-nas">
+  <div class="wrap intro__grid">
+    <h2>Co łączy miejsca, kulinaria i marki? Emocje, które w nas wyzwalają i które sprawiają, że właśnie je wybieramy.</h2>
+    <div class="intro__text">
+      <p>Zwiedziliśmy i zjedliśmy świat, żeby odkryć Polskę. To tutaj miejsca mają fascynującą historię, naturę i ducha, genius loci. Mają też wspaniałą przyszłość, którą pomagamy im wymarzyć, zaplanować i zrealizować.</p>
+      <p>Od 2007 roku pracujemy z samorządami, organizacjami turystycznymi i gastronomią z całej Polski. Mamy na koncie 169 zrealizowanych projektów i 123 warsztaty, szkolenia i konferencje, a wsparliśmy 113 miast, gmin i regionów. Współpracowaliśmy m.in. z Polską Organizacją Turystyczną i Polską Izbą Mleka.</p>
+      <p class="intro__note">Specjalizujemy się w dodawaniu wartości przez sieciowanie współpracy i budowanie marki.</p>
+    </div>
+  </div>
+  <div class="route wrap" aria-hidden="true"><span class="blaze"></span></div>
+</section>
+
+<section class="offer" id="oferta">
+  <div class="wrap">
+    <div class="head">
+      <h2>Oferta</h2>
+      <p>Tworząc marki miejsc i regionów, komponując oferty, redagując wydawnictwa czy opracowując szlaki, stawiamy na oryginalność i dopasowanie do odbiorców. Nasze projekty są proste, logiczne i w 100% możliwe do wdrożenia, także z naszą pomocą.</p>
+    </div>
+    <div class="offer__grid">
+      <article class="area" id="turystyka">
+        <div class="area__img"><img src="img/turystyka.webp" alt="Chłopiec z kamerą na plaży wśród wydm" width="1400" height="1050" loading="lazy"></div>
+        <div class="area__body">
+          <h3>Turystyka</h3>
+          <p>Turystyka to najbardziej zespołowa gra i najpraktyczniejsza forma edukacji. Aktywujemy rozwój lokalny i tworzymy podstawy do komercjalizacji turystyki.</p>
+          <ul class="ticks">
+            <li>strategie i programy rozwoju turystyki</li>
+            <li>szlaki i sieciowe produkty turystyczne</li>
+            <li>pakiety, przewodniki, mapy, filmy promocyjne</li>
+          </ul>
+        </div>
+      </article>
+      <article class="area" id="kulinaria">
+        <div class="area__img"><img src="img/kulinaria.webp" alt="Danie z rybą i warzywami na białym talerzu" width="1400" height="933" loading="lazy"></div>
+        <div class="area__body">
+          <h3>Kulinaria</h3>
+          <p>Wiemy, jak ważne jest to, co jemy: dla zdrowia, dla lokalnej społeczności i dla przyszłości planety. Tworzymy wartościowe inicjatywy kulinarne i pomagamy im zająć należne miejsce na rynku.</p>
+          <ul class="ticks">
+            <li>szlaki kulinarne miast i regionów</li>
+            <li>wydarzenia, jak Noc Restauracji</li>
+            <li>certyfikacja, przewodniki, study tour</li>
+          </ul>
+        </div>
+      </article>
+      <article class="area" id="marka">
+        <div class="area__img"><img src="img/marka.webp" alt="Drewniane kule układane w słowo BRAND" width="1400" height="933" loading="lazy"></div>
+        <div class="area__body">
+          <h3>Marka miejsca</h3>
+          <p>Wspieramy miasta i regiony w odkrywaniu własnej tożsamości. Budujemy marki, które wyróżniają i przekazują wartości ważne dla turystów, mieszkańców i inwestorów.</p>
+          <ul class="ticks">
+            <li>strategie marki i promocji gmin</li>
+            <li>systemy identyfikacji wizualnej</li>
+            <li>koncepcje oznakowania szlaków</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="work" id="realizacje">
+  <div class="wrap">
+    <div class="work__head">
+      <div>
+        <h2>Realizacje</h2>
+        <p>Strategie dla województw i dużych miast, marki gmin, szlaki kulinarne i kajakowe. Kilka projektów z naszego dorobku:</p>
+      </div>
+      <div class="rail-nav" data-for="rail-work">
+        <span class="rail-count" aria-live="polite">1 / 18</span>
+        <button class="rail-btn" data-dir="-1" aria-label="Poprzednie realizacje"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <button class="rail-btn" data-dir="1" aria-label="Następne realizacje"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
+  </div>
+  <div class="rail" id="rail-work" tabindex="0" aria-label="Realizacje, przesuń w bok">
+    <article class="job"><div class="job__img"><img src="img/r-warszawa.webp" alt="Znak Zakochaj się w Warszawie" width="646" height="300" loading="lazy"></div><p class="job__cat">Turystyka</p><h3>Polityka turystyczna m.st. Warszawy</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-lublin.webp" alt="Logo Lublin miasto inspiracji" width="646" height="300" loading="lazy"></div><p class="job__cat">Turystyka</p><h3>Strategia rozwoju turystyki miasta Lublin do roku 2025</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-podkarpackie.webp" alt="Logo Podkarpackie przestrzeń otwarta" width="646" height="300" loading="lazy"></div><p class="job__cat">Turystyka</p><h3>Strategia rozwoju i komunikacji marketingowej turystyki województwa podkarpackiego 2020-2025</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-smaki-gdanska.webp" alt="Logo Smaki Gdańska" width="646" height="300" loading="lazy"></div><p class="job__cat">Kulinaria</p><h3>Smaki Gdańska: miejski szlak kulinarny</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-czerwonak.webp" alt="Logo gminy Czerwonak" width="646" height="300" loading="lazy"></div><p class="job__cat">Marka miejsca</p><h3>Strategia budowy marki i promocji gminy Czerwonak</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-mazury.webp" alt="Logo Mazury Zachodnie od Kuchni" width="740" height="438" loading="lazy"></div><p class="job__cat">Kulinaria, marka</p><h3>Szlak kulinarny Mazury Zachodnie od Kuchni</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-noc-restauracji.webp" alt="Logo Noc Restauracji" width="646" height="295" loading="lazy"></div><p class="job__cat">Kulinaria</p><h3>Noc Restauracji</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-dolina-energii.webp" alt="Logo Wielkopolska Dolina Energii" width="646" height="300" loading="lazy"></div><p class="job__cat">Marka miejsca</p><h3>Wielkopolska Dolina Energii</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-kajaki.webp" alt="Logo Pomorskie Szlaki Kajakowe" width="646" height="300" loading="lazy"></div><p class="job__cat">Marka miejsca</p><h3>Pomorskie szlaki kajakowe: koncepcja oznakowania</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-pan-tadeusz.webp" alt="Logo Podróże z Panem Tadeuszem" width="646" height="300" loading="lazy"></div><p class="job__cat">Marka miejsca</p><h3>Podróże z Panem Tadeuszem: szlak turystyczny dobrze oznakowany</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-wielka-petla.webp" alt="Logo Wielka Pętla Wielkopolski" width="646" height="300" loading="lazy"></div><p class="job__cat">Marka miejsca</p><h3>System identyfikacji wizualnej Wielkiej Pętli Wielkopolski</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-prestige.webp" alt="Logo Pomorskie Prestige" width="646" height="300" loading="lazy"></div><p class="job__cat">Kulinaria</p><h3>Pomorskie Culinary Prestige</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-gryfici.webp" alt="Logo Szlak Gryfitów" width="740" height="380" loading="lazy"></div><p class="job__cat">Turystyka</p><h3>Szlak Gryfitów: bałtycki przewodnik turystyczny</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-e70.webp" alt="Okładka przewodnika Międzynarodowa Droga Wodna E70" width="646" height="300" loading="lazy"></div><p class="job__cat">Turystyka</p><h3>Międzynarodowa Droga Wodna E70: strategia promocji, przewodnik dla wodniaków, mapa</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-mleko.webp" alt="Logo Fakty i mity o mleku" width="646" height="300" loading="lazy"></div><p class="job__cat">Kulinaria</p><h3>Cykl konferencji „Fakty i mity o mleku”</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-gorna-odra.webp" alt="Logo Subregion Zachodni" width="646" height="300" loading="lazy"></div><p class="job__cat">Marka miejsca</p><h3>Nowa marka turystyczna: Kraina Górnej Odry</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-digitourism.webp" alt="Logo Digitourism Interreg Europe" width="740" height="374" loading="lazy"></div><p class="job__cat">Turystyka</p><h3>Plan działania Digitourism dla województwa kujawsko-pomorskiego</h3></article>
+    <article class="job"><div class="job__img"><img src="img/r-tatry.webp" alt="Logo Szlak wokół Tatr" width="740" height="344" loading="lazy"></div><p class="job__cat">Marka, turystyka</p><h3>Modernizacja strony szlakwokoltatr.eu</h3></article>
+  </div>
+  <div class="wrap work__more">
+    <a class="link" href="https://landbrand.pl/realizacje/" rel="noopener">Pełna lista realizacji <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+</section>
+
+<section class="motto">
+  <img class="motto__bg" src="img/baltyk.webp" alt="" width="2000" height="1333" loading="lazy">
+  <div class="motto__in wrap">
+    <blockquote>
+      <p>Nie produkujemy niczego, czego sami nie kupilibyśmy jako odbiorcy. I nie piszemy „półkowników”.</p>
+    </blockquote>
+    <p class="motto__sub">Doradzamy tylko takie rozwiązania, które potrafimy wdrożyć i o których wiemy, że działają. Tworzymy je z myślą o odbiorcach: turystach, mieszkańcach i inwestorach.</p>
+  </div>
+</section>
+
+<section class="team" id="zespol">
+  <div class="wrap">
+    <div class="head">
+      <h2>Zespół</h2>
+      <p>Jesteśmy zespołem, który w turystyce odnajduje swoje pasje. Pracowaliśmy z samorządami ze wszystkich regionów Polski.</p>
+    </div>
+    <div class="team__grid">
+      <article class="person">
+        <div class="person__img"><img src="img/hubert.webp" alt="Hubert Gonera" width="1000" height="666" loading="lazy"></div>
+        <div class="person__body">
+          <h3>Hubert Gonera</h3>
+          <p class="person__role">Właściciel firmy</p>
+          <p class="person__quote">„Głową w chmurach, nogami mocno na ziemi.”</p>
+          <p>Współtwórca pierwszych w Polsce strategii rozwoju turystyki i szlaków turystyki kulinarnej. Autor m.in. Nocy Restauracji, Kulinarnego Poznania, Kolei na Wielkopolskie Smaki i Nowego Muzeum. Przeszkolił ponad 1000 osób z branży turystycznej w Polsce i za granicą.</p>
+          <ul class="ticks">
+            <li>współfundator Tasting Poland</li>
+            <li>polski ambasador World Food Travel Association</li>
+          </ul>
+        </div>
+      </article>
+      <article class="person">
+        <div class="person__img"><img src="img/paulina.webp" alt="Paulina Brzeska-Gonera" width="740" height="780" loading="lazy"></div>
+        <div class="person__body">
+          <h3>Paulina Brzeska-Gonera</h3>
+          <p class="person__role">Projekty graficzne i wydawnictwa</p>
+          <p>W Landbrand od samego początku, czyli od 2007 roku. Stoi za większością projektów graficznych: kart turystycznych, standów, broszur, wydawnictw i reklam. Realizowała projekty kulinarne Kulinarny Poznań, Noc Restauracji i Pomorskie Culinary Prestige.</p>
+          <p>Wcześniej m.in. w Polskiej Organizacji Turystycznej i Polskiej Agencji Rozwoju Turystyki. Miłośniczka prostoty.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="train" id="szkolenia">
+  <div class="wrap train__grid">
+    <div class="train__img"><img src="img/warsztat.webp" alt="Warsztat z karteczkami i wykresami na stole" width="1400" height="787" loading="lazy"></div>
+    <div class="train__body">
+      <h2>Szkolenia i warsztaty</h2>
+      <p>Prowadzimy warsztaty, szkolenia i wystąpienia na konferencjach. Dla właścicieli obiektów turystycznych poza miastem przygotowaliśmy kurs <b>Turystyczny Sukces</b>: pięć spotkań na żywo i konsultacja indywidualna, w małej grupie.</p>
+      <p>Pracujemy nad czterema kompetencjami, od których zależy sukces obiektu:</p>
+      <dl class="skills">
+        <div><dt>Standard</dt><dd>wnętrza, wyposażenie i przestrzeń wokół</dd></div>
+        <div><dt>Przeżycia</dt><dd>od pasji właściciela do oferty dla gości</dd></div>
+        <div><dt>Prezentacja</dt><dd>marka miejsca, zdjęcia, strona i social media</dd></div>
+        <div><dt>Sprzedaż</dt><dd>kanały sprzedaży, cena i relacje z gośćmi</dd></div>
+      </dl>
+      <a class="btn btn--dark" href="#kontakt">Zapytaj o najbliższy termin</a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="kontakt">
+  <div class="wrap contact__grid">
+    <div class="contact__info">
+      <h2>Porozmawiajmy o Państwa miejscu</h2>
+      <p>Opiszcie krótko, nad czym pracujecie: strategia, szlak, marka, wydarzenie kulinarne albo szkolenie. Odpowiemy z propozycją pierwszych kroków.</p>
+      <ul class="cdata">
+        <li><span>Telefon</span><a href="tel:+48663980194">+48 663 980 194</a></li>
+        <li><span>E-mail</span><a href="mailto:info@landbrand.pl">info@landbrand.pl</a></li>
+        <li><span>Biuro</span>ul. Czekoladowa 4, 61-680 Poznań</li>
+      </ul>
+      <div class="map">
+        <iframe title="Mapa dojazdu: ul. Czekoladowa 4, Poznań" src="https://www.google.com/maps?q=ul.+Czekoladowa+4,+61-680+Pozna%C5%84&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <form class="form" id="form" novalidate>
+      <h3>Zapytanie</h3>
+      <label>Imię i nazwisko<input name="n" autocomplete="name" required></label>
+      <label>Instytucja lub firma<input name="org" autocomplete="organization"></label>
+      <div class="form__row">
+        <label>E-mail<input name="e" type="email" autocomplete="email" required></label>
+        <label>Telefon<input name="t" type="tel" autocomplete="tel"></label>
+      </div>
+      <label>Temat
+        <select name="s">
+          <option>Strategia lub program rozwoju turystyki</option>
+          <option>Szlak lub produkt turystyczny</option>
+          <option>Marka miejsca, identyfikacja wizualna</option>
+          <option>Inicjatywa kulinarna</option>
+          <option>Szkolenie lub warsztat</option>
+          <option>Inny temat</option>
+        </select>
+      </label>
+      <label>Wiadomość<textarea name="m" rows="4"></textarea></label>
+      <button class="btn btn--lime" type="submit">Wyślij zapytanie</button>
+      <p class="form__note" id="formNote" hidden>To podgląd strony, formularz zacznie wysyłać wiadomości na docelowej wersji. Teraz prosimy pisać na info@landbrand.pl.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div class="foot__brand">
+      <img src="img/logo-w.svg" alt="landbrand - wyróżniamy miejsca" width="150" height="43" loading="lazy">
+    </div>
+    <div>
+      <p class="foot__h">Biuro Landbrand</p>
+      <p>ul. Czekoladowa 4<br>61-680 Poznań</p>
+    </div>
+    <div>
+      <p class="foot__h">Kontakt</p>
+      <p><a href="tel:+48663980194">663 980 194</a><br><a href="mailto:info@landbrand.pl">info@landbrand.pl</a></p>
+    </div>
+    <div>
+      <p class="foot__h">Na skróty</p>
+      <p><a href="#oferta">Oferta</a><br><a href="#realizacje">Realizacje</a><br><a href="#szkolenia">Szkolenia</a></p>
+    </div>
+  </div>
+  <div class="wrap foot__bottom">
+    <span>© 2026 Landbrand · <a href="#kontakt">Polityka prywatności</a></span>
+    <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=landbrand.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
